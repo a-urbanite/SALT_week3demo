@@ -1,7 +1,13 @@
 /* @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'; */
 
-ul {
-    list-style: none
+/* ul {
+    list-style: none;
+    /* display: center; */
+    /* display: inline-block; */
+}
+
+li {
+    float: left; */
 }
 
 .wrapper {
@@ -40,7 +46,8 @@ h2 {
 
 p {
     font-size: 25px;
-    color:#d400ff
+    color:#d400ff;
+    margin: 2px;
 }
 
 

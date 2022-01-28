@@ -9,7 +9,7 @@ const runFizzBuzz = () => {
   const listOfBuzzs = document.getElementById("fizzbuzz-result")
   const result = fizzBuzz(userArray);
   result.forEach(elem => {
-    const listItem = document.createElement('li')
+    const listItem = document.createElement('p')
     listItem.innerText = elem;
     let random = Math.floor(Math.random() * colorRamp.length);
     listItem.style.color = colorRamp[random]
