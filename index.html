@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./index.js"></script>
+    <link rel='stylesheet' href="./index.css">
+    <script type="text/javascript" src="./fizzbuzz.js"></script>
+    <script type="text/javascript" src="./roman-numbers.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>This is a headline</h1>
-    <h2>This isfghfghfhfhline</h2>
+    <h1>MultySalty Week 3 Demo!</h1>
+    <div class="wrapper">
+        <div id= "roman-numerals-container">
+            <h2>Roman Numerals translator</h2>
+            <div class="arabic-to-roman-numerals">
+                <p>Enter your Birthyear!</p>
+                <input id="roman-numerals-input", type="text"> 
+                <button class="button1"; id="roman-numerals-button"; onclick="runRomanConverter()">Romanize!</button>
+                <p id="roman-numerals-result"></p>
+            </div>
+            <div class="roman-to-arabic-numerals">
+                <p>When did your favorite Emperor died?</p>
+                <input id="arabic-numerals-input", type="text"> 
+                <button class="button1"; id="arabic-numerals-button"; onclick="runArabicConverter()">Modernize!</button>
+                <ul id="arabic-numerals-result">
+    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <div class="wrapper">
+        <div class="fizzbuzz">
+            <h2>FizzBuzz game</h2>
+            <!-- <div class="box-2">
+                <div class="btn btn-two">
+                  <span id="fizzbuzz-button"; onclick="runFizzBuzz()">HOVER ME</span>
+                </div>
+              </div> -->
+            <button class="button1"; id="fizzbuzz-button"; onclick="runFizzBuzz()">Fizz your Buzz!!</button>
+            <p id="fizzbuzz-result"></p>
+        </div>
+    </div>
+    
 </body>
 </html>

@@ -1,3 +1,23 @@
+let number = 0;
+
+const colorRamp = ['#da25b2', '#0cf703', '#1900ff', '#01e1ff', '#e5ff00']
+
+const runFizzBuzz = () => {
+  number += 1
+  let userArray = []
+  userArray.push(number)
+  const listOfBuzzs = document.getElementById("fizzbuzz-result")
+  const result = fizzBuzz(userArray);
+  result.forEach(elem => {
+    const listItem = document.createElement('li')
+    listItem.innerText = elem;
+    let random = Math.floor(Math.random() * colorRamp.length);
+    listItem.style.color = colorRamp[random]
+    listOfBuzzs.appendChild(listItem)
+  })
+}
+
+
 function fizzBuzz(numbersArray) {
   const result = [];
   numbersArray.forEach(elem => {

@@ -1,3 +1,22 @@
+// document.getElementById("roman-numerals-button").addEventListener('click', () => {
+//   document.getElementById("roman-numerals-result").innerText('THIS WORKS!')
+  // const isereInput
+  // extract value from input element
+  // execute the converter
+  // output the result 
+// })
+
+const runRomanConverter = () => {
+  const userInput = document.getElementById("roman-numerals-input").value
+  document.getElementById("roman-numerals-result").innerText = convertToRomanNumerals(userInput)
+}
+
+const runArabicConverter = () => {
+  const userInput = document.getElementById("arabic-numerals-input").value
+  document.getElementById("arabic-numerals-result").innerText = convertToArabicNumerals(userInput)
+}
+
+
 const romanNumbers = {
   M: 1000,
   CM: 900,

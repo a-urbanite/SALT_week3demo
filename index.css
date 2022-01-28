@@ -1,0 +1,92 @@
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'; */
+
+ul {
+    list-style: none
+}
+
+.wrapper {
+  border-radius: 25px;
+  border: 2px solid #838383;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.arabic-to-roman-numerals {
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid #838383;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin: 50px;
+
+}
+.roman-to-arabic-numerals {
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid #838383;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin: 50px;
+
+}
+h1 {
+    color: #1900ff;
+    text-align: center;
+}
+
+h2 {
+    color:#01e1ff
+}
+
+p {
+    font-size: 25px;
+    color:#d400ff
+}
+
+
+
+
+html,
+body {
+  /* width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url("starcrashbackdrop.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #7c3c3cd0;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#0cf703;
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#665a5a;
+}
+.button1:hover{
+    color:#da25b2;
+    background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+.button1{
+    display:block;
+    margin:0.4em auto;
+}
+}
