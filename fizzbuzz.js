@@ -35,4 +35,7 @@ function fizzBuzz(numbersArray) {
   return result;
 }
 
+//sdsfsf
+console.log("asdsadsdds")
+
 module.exports.fizzBuzz = fizzBuzz;
